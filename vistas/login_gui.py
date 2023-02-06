@@ -82,7 +82,7 @@ def verificacion_login():
 # PASO 4--------------------------- Funcion para almacenar el registro facial --------------------------------------
 def registro_facial():
      # Vamos a capturar el rostro
-     cap = cv2.VideoCapture(1)  # Elegimos la camara con la que vamos a hacer la deteccion
+     cap = cv2.VideoCapture(0)  # Elegimos la camara con la que vamos a hacer la deteccion
      while (True):
         ret, frame = cap.read()  # Leemos el video
         cv2.imshow('Registro Facial', frame)  # Mostramos el video en pantalla

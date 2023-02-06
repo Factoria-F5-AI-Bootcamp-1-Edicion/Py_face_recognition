@@ -24,5 +24,5 @@ def iniciar_webcam():
     
     pipeline_deteccion_webcam(
         dic_referencia   = dict_referencias,
-        id_camara=1,
+        id_camara=0,
     threshold_similaridad = 0.4 )
