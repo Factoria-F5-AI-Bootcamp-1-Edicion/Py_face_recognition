@@ -437,6 +437,7 @@ def crear_diccionario_referencias(folder_path:str,
     
 def pipeline_deteccion_webcam(dic_referencia: dict,
                              output_device: str = 'window',
+                             id_camara:int=0,
                              path_output_video: str=os.getcwd(),
                              detector: facenet_pytorch.models.mtcnn.MTCNN=None,
                              keep_all: bool=True,
@@ -452,7 +453,7 @@ def pipeline_deteccion_webcam(dic_referencia: dict,
                              verbose=False)-> None:
     
 
-    capture = cv2.VideoCapture(0)
+    capture = cv2.VideoCapture(id_camara)
     frame_exist = True
 
     while(frame_exist):
