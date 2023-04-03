@@ -29,34 +29,26 @@ Versión 2.0 ya en desarrollo.
 
 ## 🛠️ Abre y ejecuta el proyecto
 
-1. Crea un entorno específicamente para este proyecto con Conda o Venv:
-  1.1. Conda:
+1. Crea un entorno específicamente para este proyecto, por ejemplo:
+
 ```
 conda create -n nombreEntorno
 ```
+
 Y activar el entorno:
+
 ```
 conda activate nombre-del-entorno
 ```
-  1.2. Venv:
-Después de ubicarte en la carpeta donde quieres crear tu entorno, ingresa el siguiente comando:
-```
-python -m venv nombredetuentorno
-```
-Activa el entorno virtual 
-Windows:
-```
-nombredetuentorno\Scripts\activate.bat
-```
-Mac o Linux:
-```
-source nombredetuentorno/bin/activate
-```
+
 2. Dentro de este entorno debes instalar todas las librerías necesarias con la siguiente línea de comando:
+
 ```
 pip install -r requirements.txt
 ```
+
 3. Situate en la carpeta que contiene los archivos y desde allí ejecute:
+
 ```
 python3 main.py
 ```
@@ -70,10 +62,9 @@ python3 main.py
 
 
 ## Autores
-![equipo]()
+![equipo](https://user-images.githubusercontent.com/108665441/217483671-7832066e-e9ff-4156-ab51-f97c6930b749.png)
 
 ## :mailbox:Contacta con nosotros:
-[Alexandra Mendoza](https://www.linkedin.com/in/alexandra-mendoza-malasquez/)
-[Ana de Córdoba](https://www.linkedin.com/in/anadecordoba/)
-[Henry Suárez](https://www.linkedin.com/in/henry-su%C3%A1rez-b60419256/)
-[Pablo Ruano](https://www.linkedin.com/in/pabloruanosainz/)
+- Discord:https://discord.gg/7pDFqxpR
+- Email: hello@cvsolutions.com
+- Email: hello@cvsolutions.es
