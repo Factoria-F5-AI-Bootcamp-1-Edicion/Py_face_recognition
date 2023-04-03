@@ -29,13 +29,32 @@ Versión 2.0 ya en desarrollo.
 
 ## 🛠️ Abre y ejecuta el proyecto
 
-1. Crea un entorno específicamente para este proyecto. Por ejemplo: 
+1. Crea un entorno específicamente para este proyecto con Conda o Venv:
+  1.1. Conda:
 ```
 conda create -n nombreEntorno
 ```
-3. Dentro de este entorno debes instalar todas las librerías necesarias con la siguiente línea de comando:
+Y activar el entorno:
 ```
-pip install requirements.txt
+conda activate nombre-del-entorno
+```
+  1.2. Venv:
+Después de ubicarte en la carpeta donde quieres crear tu entorno, ingresa el siguiente comando:
+```
+python -m venv nombredetuentorno
+```
+Activa el entorno virtual 
+Windows:
+```
+nombredetuentorno\Scripts\activate.bat
+```
+Mac o Linux:
+```
+source nombredetuentorno/bin/activate
+```
+2. Dentro de este entorno debes instalar todas las librerías necesarias con la siguiente línea de comando:
+```
+pip install -r requirements.txt
 ```
 3. Situate en la carpeta que contiene los archivos y desde allí ejecute:
 ```
@@ -44,14 +63,17 @@ python3 main.py
 
 # :wrench: Tecnologías usadas:
 
-   - **Metodología Scrum:** Trello (https://trello.com/b/USt8dHnW/py-reconocimiento-facial-trello)
-   - **Desarrollo:** Git y GitHub, Pycharm, VsCode, OpenCV, Tkinter, Numpy, Red Neuronal pre entrenada MTCNN, Pytorch, Pipeline.
-   - **Presentación:** Canva (https://www.canva.com/design/DAFZ5KQejhI/0p_9DZry9B3d4tTVH8OMtQ/edit) 
+   - **Metodología Scrum:** Trello ()
+   - **Desarrollo:** 
+   - **Documentación:** [Notion](https://www.notion.so/PiaBot-5774b2b4ccfb49669a1df3693c9389ef)
+   - **Presentación:** 
 
 
 ## Autores
-![equipo](https://user-images.githubusercontent.com/108665441/217483671-7832066e-e9ff-4156-ab51-f97c6930b749.png)
+![equipo]()
 
 ## :mailbox:Contacta con nosotros:
-- Discord:https://discord.gg/7pDFqxpR
-- Email: hello@cvsolutions.es
+[Alexandra Mendoza](https://www.linkedin.com/in/alexandra-mendoza-malasquez/)
+[Ana de Córdoba](https://www.linkedin.com/in/anadecordoba/)
+[Henry Suárez](https://www.linkedin.com/in/henry-su%C3%A1rez-b60419256/)
+[Pablo Ruano](https://www.linkedin.com/in/pabloruanosainz/)
