@@ -55,10 +55,9 @@ python3 main.py
 
 # :wrench: Tecnologías usadas:
 
-   - **Metodología Scrum:** Trello ()
-   - **Desarrollo:** 
-   - **Documentación:** [Notion](https://www.notion.so/PiaBot-5774b2b4ccfb49669a1df3693c9389ef)
-   - **Presentación:** 
+   - **Metodología Scrum:** Trello (https://trello.com/b/USt8dHnW/py-reconocimiento-facial-trello)
+   - **Desarrollo:** Git y GitHub, Pycharm, VsCode, OpenCV, Tkinter, Numpy, Red Neuronal pre entrenada MTCNN, Pytorch, Pipeline.
+   - **Presentación:** Canva (https://www.canva.com/design/DAFZ5KQejhI/0p_9DZry9B3d4tTVH8OMtQ/edit) 
 
 
 ## Autores
